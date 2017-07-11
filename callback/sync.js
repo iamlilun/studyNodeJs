@@ -1,5 +1,6 @@
 /**
  * 同步(阻塞) 模式
+ * 像script一樣步一步走
  */
 var fs = require("fs");
 
