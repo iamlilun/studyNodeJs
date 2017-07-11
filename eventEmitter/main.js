@@ -28,8 +28,7 @@ var listener4 = function listener4() {
     console.log('監聽器 listener4 執行。');
 }
 
-// #### addListener 跟 on 到底差在哪？？ #### \\
-
+// !!! addListener 跟 on 沒有區別..只是別名而已 !!!
 // 绑定 connection 事件，callback listener1
 eventEmitter.addListener('connection', listener1);
 
